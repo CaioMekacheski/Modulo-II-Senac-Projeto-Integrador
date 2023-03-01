@@ -1,4 +1,4 @@
-//Criado 01/03/2023 10:47
+//Criado 01/03/2023 16:27
 package minhas.finanças;
 
 public class Usuario 
@@ -11,6 +11,22 @@ public class Usuario
     public Usuario(String nome, String senha)
     {
         this.nome = nome;
+        this.senha = senha;
+    }
+    
+    //Getters and Setters
+    public String getNome()
+    {
+        return this.nome;
+    }
+    
+    public void setNome(String nome)
+    {
+        this.nome = nome;
+    }
+    
+    public void setSenha(String senha)
+    {
         this.senha = senha;
     }
     
